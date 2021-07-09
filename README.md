@@ -30,6 +30,19 @@ PUT  http://api.com/users/1
 DELETE  http://api.com/users/1
 ➔ Deletar alguma informação no back-end
 
+Tipos de parâmetros
+
+Routes Params ➔ 
+http://localhost:3090/users/8795412
+
+Query Params ➔ 
+http://localhost:3090/users?name=anonymou&description=lorem
+
+  body Params => {
+    "name": "anonymous",
+    "descriprtion": "lorem" 
+ } 
+
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
