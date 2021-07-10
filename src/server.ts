@@ -1,4 +1,7 @@
+import 'reflect-metadata'
 import express from 'express'
+
+import './database'
 
 // @types/express -D
 const app = express()
